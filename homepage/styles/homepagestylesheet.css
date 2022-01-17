@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Stylesheet written by Mae Sangaline */
+a:hover {
+    color: #FFFFFF;
+}
+/* Header */
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #929292;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* Logo */
+#logo {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    width: 139px;
+    text-align: center;
+    background-color: #5d6163;
+    /* [disabled]background-color: rgba(190,190,190,1.00); */
+}
+#eat {
+	font: 35px 'Playfair Display', serif;
+	font-weight: bolder;
+	text-shadow:-1px 0 #020300, 0 1px #020300, 1px 0 #020300, 0 -1px #020300;
+	color: #ddd;
+	position:relative;
+}
+#suite {
+	font: 35px 'Playfair Display', serif;
+	font-weight: bolder;
+	text-shadow:-1px 0 #020300, 0 1px #020300, 1px 0 #020300, 0 -1px #020300;
+	color: #c9aa3c;
+	position:relative;
+}
+a {
+	text-decoration: none;
+}
+
+/* Div Links in header */
+#headerLinks {
+    float: left;
+    width: calc( 100% - 139px );
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+}
+/* Links in header */
+#headerLinks a {
+    text-decoration: none;
+    color: #929292;
+    padding-left: 66px;
+    font-size: 14px;
+}
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #5d6163;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c9aa3c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* hero */
+#hero {
+    font-family: 'Playfair Display', sans-serif;
+	font-size: 50px;
+    clear: both;
+    background-color: #F6F6F6;
+    color: #929292;
+    padding-left: 115px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#hero h2 {
+	margin-bottom:-30px;
+	margin-left:-50px;
+}
+#hero-span {
+	font-size:30px;
+	font-style: italic;
+	letter-spacing:8px;
+	color: #c9aa3c;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+/* Whole page content */
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+/* Recipe rows for catalog */
+#content .mainContent .recipeRow {
+    overflow: auto;
+    color: #929292;
+}
+/* Each recipe in the catalog */
+.mainContent .recipeRow .recipeInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+/* Recipe names in catalog */
+.recipeRow .recipeInfo .recipe-name {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #929292;
+    font-size: 22px;
+    position: relative;
+    top: -20px;
+}
+/* Content holder for recipes in catalog*/
+.recipeRow .recipeInfo .recipeContent {
+    position: relative;
+    top: -37px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #929292;
+    white-space: pre-wrap;
+}
+/* View button for recipes in catalog */
+.recipeRow .recipeInfo .viewButton {
+    position: relative;
+    top: -48px;
+    width: 84%;
+    background-color: #D0CFCF;
+    height: 35px;
+    color: #FFFFFF;
+    border-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+/* View button for recipes in catalog */
+.recipeRow .recipeInfo .viewButton:hover  {
+    position: relative;
+    top: -48px;
+    width: 84%;
+    background-color: #c9aa3c;
+    height: 35px;
+    color: #FFFFFF;
+    border-style: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+.recipeRow .recipeInfo .viewButton:active  {
+    transform: translateY(4px);
+}
+/* Footer */
+footer .footerDisclaimer {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #686767;
+    font-weight: 700;
+}
+footer .footerDisclaimer span {
+    color: #B5B2B2;
+    font-weight: 400;
+}
+footer .footerNote {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #686767;
+    font-weight: 700;
+}
+footer .footerNote span {
+    color: #B5B2B2;
+    font-weight: 400;
+}
+
+/* recipe's images in catalog */
+.recipeInfo div img {
+	width: 100%;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+}
+/* hero banners content */
+#mainWrapper #hero p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Recipe names in catalog view */
+.recipeRow .recipeInfo .recipeName {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.recipeRow .recipeInfo .recipeContent {
+	font-size: 16px;
+}
+/* view buttons in catalog view */
+.recipeRow .recipeInfo .viewButton {
+	font-size: 15px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* hero- Text banner */
+#mainWrapper #hero {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+    width: 100%;
+    text-align: center;
+    background-color: #BEBEBE;
+    padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*hero - Text Banner */
+#mainWrapper #hero {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Each recipe in catalog view */
+.mainContent .recipeRow .recipeInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}
+/* Footer */ 
+}
+hr {
+    background-color: #D0CFCF;
+    height: 1px;
+}
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
